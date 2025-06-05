@@ -385,12 +385,12 @@ input[type="number"] {
   }
 
   .question-label label {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     width: 100%;
     padding: 10px;
   }
   .quiz-ans-and-qs p:not(.chapter) {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .chapter{
     font-size: 1.2rem;
