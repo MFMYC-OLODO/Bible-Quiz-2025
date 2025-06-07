@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       phone: "08069062240",
     },
     mfmyc726: {
-      name: "Akhaghosu Daniel",
+      name: "Akhagbosu Daniel",
       region: "sw23",
       phone: "09121359229",
     },
