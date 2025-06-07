@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mfmyc626: { name: "Olumayowa Jesse", region: "sw23", phone: "08115627612" },
     mfmyc227: { name: "Aderibigbe Paul", region: "sw23", phone: "09063211274" },
     mfmyc164: { name: "Joel Ruth", region: "sw23", phone: "09066749301" },
+    mfmyc140: { name: "Ogunmileto Joy", region: "sw23", phone: "09114868331" },
   };
 
   document
