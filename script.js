@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let currentQuestionIndex =
     parseInt(localStorage.getItem("currentQuestionIndex")) || 0;
-  let timeLeft = parseInt(localStorage.getItem("timeLeft")) || 900;
+  let timeLeft = parseInt(localStorage.getItem("timeLeft")) || 1200;
   const questions = document.querySelectorAll(".questions");
   const prevButton = document.querySelector(
     ".pre-next-container button:first-child"
