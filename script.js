@@ -125,6 +125,7 @@ nextButton.addEventListener("click", () => {
     modal.style.display = "none";
     clearInterval(timerInterval);
     submitQuiz();
+    window.location.href = "index.html"; // Redirect after submission
   });
 
   confirmNo.addEventListener("click", () => {
