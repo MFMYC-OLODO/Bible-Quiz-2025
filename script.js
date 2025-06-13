@@ -122,6 +122,7 @@ nextButton.addEventListener("click", () => {
 
   confirmYes.addEventListener("click", () => {
     modal.style.display = "none";
+    clearInterval(timerInterval);
     submitQuiz();
   });
 
