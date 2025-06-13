@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("customModal");
   const confirmYes = document.getElementById("confirmYes");
   const confirmNo = document.getElementById("confirmNo");
-   let quizSubmitted = false;
+ 
   let timerInterval;
 
   function startTimer() {
@@ -226,10 +226,7 @@ nextButton.addEventListener("click", () => {
     // let resultDiv = document.getElementById("result");
     // resultDiv.innerHTML = `<h3>Your score is: ${score}/10</h3>`;
 
-    if (quizSubmitted) return; // Prevent multiple submissions
-    quizSubmitted = true;
-    clearInterval(timerInterval);
-
+   
     let inputs = document.querySelectorAll("input");
     inputs.forEach((input) => (input.disabled = true));
 
